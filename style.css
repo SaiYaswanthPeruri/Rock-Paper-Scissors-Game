@@ -21,7 +21,8 @@ h1{
     font-size: 7.5rem;
     min-width: 160px;
     margin: 0 10px;
-    border-radius: 250px;
+    border: 3px solid black;
+    border-radius: 300px;
     background-color: hsl(200, 100%, 50%);
     cursor: pointer;
     transition: background-color 0.5s ease;
@@ -36,7 +37,19 @@ h1{
     font-size: 2.5rem;
 }
 
-#resultsDisplay{
+#resultDisplays{
     font-size: 5rem;
     margin: 30px 0;
 }
+
+.scoreDisplay{
+    font-size: 2rem;
+ }
+
+.greenText,#playerScoreDisplay{
+    color: hsl(130, 84%, 54%);
+}
+
+.redText , #computerScoreDisplay{
+    color: hsl(0, 84%, 60%);
+} 
